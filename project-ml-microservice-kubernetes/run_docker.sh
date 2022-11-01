@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+docker build --tag=micro-app .
+docker image ls
+docker run -p 8000:80 micro-app
+
 ## Complete the following steps to get Docker running locally
 
 # Step 1:
